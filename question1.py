@@ -11,7 +11,7 @@ from langchain.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Set the OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'KEY'
 
 # Initialize langchain document loader
 splitter = RecursiveCharacterTextSplitter(chunk_size=2046, chunk_overlap=100)
