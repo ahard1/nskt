@@ -15,7 +15,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Set the OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'KEY'
 
 # Initialize tiktoken encoder
 tokenizer = tiktoken.get_encoding('cl100k_base')
